@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "计步"; ObjectID = "21N-Tj-vhU"; */
+"21N-Tj-vhU.normalTitle" = "计步";
+
+/* Class = "UIButton"; normalTitle = "距离"; ObjectID = "78U-xO-KDy"; */
+"78U-xO-KDy.normalTitle" = "距离";
+
+/* Class = "UILabel"; text = "距离"; ObjectID = "ZpF-jR-v55"; */
+"ZpF-jR-v55.text" = "距离";
+
+/* Class = "UILabel"; text = "步数"; ObjectID = "zvN-pK-dZO"; */
+"zvN-pK-dZO.text" = "步数";

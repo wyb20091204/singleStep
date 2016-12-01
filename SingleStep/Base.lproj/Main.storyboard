@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="21N-Tj-vhU">
+                                <rect key="frame" x="165" y="73" width="31" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="计步">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="stepClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bgK-Ts-Yqz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="78U-xO-KDy">
+                                <rect key="frame" x="167" y="125" width="31" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="距离"/>
+                                <connections>
+                                    <action selector="distanceClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pif-dI-FIr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="步数" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zvN-pK-dZO">
+                                <rect key="frame" x="161" y="198" width="35" height="21"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="距离" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZpF-jR-v55">
+                                <rect key="frame" x="161" y="279" width="35" height="21"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7m9-YT-35a">
+                                <rect key="frame" x="167" y="160" width="30" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="alrt"/>
+                                <connections>
+                                    <action selector="alertView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cfe-vo-ucU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avd-Th-2gJ">
+                                <rect key="frame" x="95" y="125" width="51" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="addDef"/>
+                                <connections>
+                                    <action selector="addDefff:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aO0-ZX-UMg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWJ-n8-pTh">
+                                <rect key="frame" x="215" y="125" width="60" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="reserDef"/>
+                                <connections>
+                                    <action selector="resetDeffff:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oKK-eY-Etm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80337520299999998" green="0.74355596049999995" blue="0.34442177210000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZpF-jR-v55" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-9" id="2bz-Sl-8iH"/>
+                            <constraint firstItem="LWJ-n8-pTh" firstAttribute="leading" secondItem="78U-xO-KDy" secondAttribute="trailing" constant="17" id="2h0-AI-aT8"/>
+                            <constraint firstItem="zvN-pK-dZO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-9" id="7qc-sP-yT5"/>
+                            <constraint firstItem="21N-Tj-vhU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="53" id="94w-Qh-7Z2"/>
+                            <constraint firstItem="7m9-YT-35a" firstAttribute="top" secondItem="78U-xO-KDy" secondAttribute="bottom" constant="5" id="HA5-cJ-gRv"/>
+                            <constraint firstItem="ZpF-jR-v55" firstAttribute="top" secondItem="zvN-pK-dZO" secondAttribute="bottom" constant="60" id="MJU-jT-7S9"/>
+                            <constraint firstItem="zvN-pK-dZO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Nbt-fy-AAs"/>
+                            <constraint firstItem="78U-xO-KDy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-5" id="P4l-Q5-5GX"/>
+                            <constraint firstItem="78U-xO-KDy" firstAttribute="leading" secondItem="avd-Th-2gJ" secondAttribute="trailing" constant="21" id="VGI-yx-vCJ"/>
+                            <constraint firstItem="21N-Tj-vhU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-7" id="b9D-jH-0h2"/>
+                            <constraint firstItem="LWJ-n8-pTh" firstAttribute="top" secondItem="avd-Th-2gJ" secondAttribute="top" id="etO-Uu-cVS"/>
+                            <constraint firstItem="7m9-YT-35a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n11-Ks-hVL"/>
+                            <constraint firstItem="zvN-pK-dZO" firstAttribute="top" secondItem="78U-xO-KDy" secondAttribute="bottom" constant="43" id="qez-rt-4tR"/>
+                            <constraint firstItem="78U-xO-KDy" firstAttribute="top" secondItem="avd-Th-2gJ" secondAttribute="top" id="stm-KH-6Sz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="distanceLabel" destination="ZpF-jR-v55" id="5OR-6J-vbR"/>
+                        <outlet property="stepLabel" destination="zvN-pK-dZO" id="1CJ-Ar-7bT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

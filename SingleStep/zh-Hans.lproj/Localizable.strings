@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  SingleStep
+
+  Created by 一波 on 2016/11/18.
+  Copyright © 2016年 一波. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "步步";
+"alertTitle" = "标题";
+"alertOk" = "确定";
+"alertMessage" = "信息";
+"alertOther"   = "其他";

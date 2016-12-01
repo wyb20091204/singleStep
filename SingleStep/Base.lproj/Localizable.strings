@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  SingleStep
+
+  Created by 一波 on 2016/11/18.
+  Copyright © 2016年 一波. All rights reserved.
+*/
+
+
+"CFBundleDisplayName" = "sssTTep";
+"alertTitle" = "title";
+"alertOk" = "OK";
+"alertMessage" = "alertMessage";
+"alertOther"   = "other";
